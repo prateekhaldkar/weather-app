@@ -42,19 +42,19 @@ const data = async function (search) {
     type.innerHTML = jsonData.weather[0].main;
 
     if (type.innerHTML == "Clouds") {
-        image.src = "/Clouds.png"
+        image.src = "clouds.png"
     } else if (type.innerHTML == "Clear") {
-        image.src = "/clear.png"
+        image.src = "clear.png"
     } else if (type.innerHTML == "Rain") {
-        image.src = "/rain.png"
+        image.src = "rain.png"
     } else if (type.innerHTML == "Snow") {
-        image.src = "/rain.png"
+        image.src = "rain.png"
     } else if (type.innerHTML == "Haze") {
-        image.src = "/haze.png"
+        image.src = "haze.png"
     } else if (type.innerHTML == "Strom") {
-        image.src = "/strom.png"
+        image.src = "strom.png"
     } else if (type.innerHTML == "Mist") {
-        image.src = "/mist.png"
+        image.src = "mist.png"
     }
     input.value = ""
 }
