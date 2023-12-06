@@ -63,3 +63,4 @@ function myFun() {
     search = input.value;
     data(search)
 }
+data('jabalpur');
