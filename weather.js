@@ -22,14 +22,14 @@ const data = async function (search) {
 
     if (jsonData.cod == 400) {
         error1.innerHTML = "Enter Location";
-        image.src = "oops.png";
+        image.src = "empty_location.png";
         city.innerHTML = "";
         temp.innerHTML = "";
         type.innerHTML = "";
     }
     if (jsonData.cod == 404) {
         error2.innerHTML = "Enter Right Location";
-        image.src = "oops.png";
+        image.src = "not_found.png";
         city.innerHTML = search;
         temp.innerHTML = "";
         type.innerHTML = "";
